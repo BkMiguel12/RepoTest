@@ -1,0 +1,292 @@
+    /* General */
+    
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    div.header {
+        background: transparent;
+        position: absolute;
+        z-index: 99;
+        top: 0;
+        width: 100%;
+    }
+    /* Content */
+    
+    .content {
+        background: url('../img/fondo.jpg');
+        background-size: cover;
+        padding-top: 20px;
+        padding-bottom: 245px;
+        height: 500px;
+    }
+    
+    @media(max-width: 768px) {
+        .content {
+            padding-bottom: 20px;
+        }
+    }
+    
+    .title-marca {
+        font-size: 38px;
+    }
+    
+    .img-header {
+        display: initial;
+    }
+    
+    .img-nivel {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 75% !important;
+    }
+    
+    @media(max-width: 1024px) {
+        .img-nivel {
+            width: 100% !important;
+            position: absolute;
+            bottom: -18px;
+            left: 0;
+        }
+    }
+    
+    @media(max-width: 500px) {
+        .img-nivel {
+            width: 100% !important;
+            position: absolute;
+            bottom: -18px;
+            left: 0;
+            display: initial;
+        }
+    }
+    
+    .p-content {
+        font-size: 19px;
+    }
+    /* Services */
+    
+    .services {
+        background-color: #592780;
+        padding-top: 40px;
+        padding-bottom: 160px;
+    }
+    
+    .p-services {
+        color: #fdff00;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    @media(max-width: 500px) {
+        .p-services {
+            margin-top: 420px;
+        }
+        .first-col-serv,
+        .second-col-serv {
+            text-align: center
+        }
+    }
+    
+    ul {
+        list-style: none;
+        padding-left: 0px;
+    }
+    
+    ul li {
+        color: #fdff00;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    
+    @media(max-width: 500px) {
+        .services {
+            padding-bottom: 20px;
+        }
+    }
+    
+    .item-service {
+        font-size: 14px;
+    }
+    
+    .form-service {
+        padding-top: 40px;
+        background-color: transparent;
+        /* border: 2px solid #006150; */
+        border-top: none;
+    }
+    
+    label {
+        color: #fff;
+    }
+    
+    .title-form-service {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        background-color: #fdff00;
+        color: #fff;
+        padding: 20px;
+    }
+    
+    .style-title {
+        color: #301147;
+        font-weight: 700;
+    }
+    
+    .btn-enviar {
+        background-color: #00ff92;
+        border-color: #00ff92;
+        height: 50px;
+        color: #592780 !important;
+        font-size: 18px;
+    }
+    
+    .triangle {
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 30px solid #fdff00;
+        width: 0;
+        height: 0;
+        margin: auto;
+    }
+    
+    .input-service {
+        height: 50px;
+        background-color: #F2F2F2;
+    }
+    
+    .container-form-service {
+        background-color: transparent
+    }
+    
+     ::placeholder {
+        color: #000 !important;
+    }
+    
+     ::-webkit-input-placeholder {
+        color: #000 !important;
+    }
+    
+     ::-moz-placeholder {
+        color: #000 !important;
+    }
+    /* Helpers */
+    
+    .py-20 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .py-40 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .mb-15 {
+        margin-bottom: 15px;
+    }
+    
+    .no-padding-y {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .font-light {
+        font-weight: 300;
+    }
+    
+    .font-normal {
+        font-weight: 400;
+    }
+    
+    .font-bold {
+        font-weight: 700;
+    }
+    
+    .text-danger {
+        color: #dc3545!important;
+    }
+    /* Fonts */
+    
+    @font-face {
+        font-family: 'icomoon';
+        src: url('../fonts/icomoon.eot?aquglr');
+        src: url('../fonts/icomoon.eot?aquglr#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?aquglr') format('truetype'), url('../fonts/icomoon.woff?aquglr') format('woff'), url('../fonts/icomoon.svg?aquglr#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    [class^="icon-"],
+    [class*=" icon-"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'icomoon' !important;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .icon-check-circle:before {
+        content: "\e900";
+    }
+    /* ------------ */
+    /* Contacto */
+    /* ------------ */
+    
+    .help-block ul {
+        list-style-type: none;
+        padding-left: 0px;
+        font-weight: 700;
+    }
+    
+    .boxed {
+        float: none !important;
+        /* margin-bottom: 25px; */
+        margin-top: 25px;
+        left: 50%;
+        top: 388px;
+        margin-right: -50%;
+        transform: translate(-50%, 0%);
+    }
+    /* boxed-up sections */
+    
+    .move-up {
+        margin-top: -483px;
+        border-radius: 5px;
+        width: 400px;
+    }
+    
+    @media(max-width: 1024px) {
+        .move-up {
+            width: 300px;
+            margin-top: -490px;
+        }
+    }
+    
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    @media(min-width: 1024px) {
+        .large {
+            display: block;
+        }
+        .small {
+            display: none;
+        }
+    }
+    
+    @media(max-width: 1023px) {
+        .small {
+            display: block;
+        }
+        .large {
+            display: none;
+        }
+    }

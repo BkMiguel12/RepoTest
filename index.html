@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Alianza</title>
+</head>
+
+<body class="body">
+    <!-- Seccion del header -->
+    <div class="header col-md-12 text-center">
+        <img class="img-responsive img-header" src="img/logo_alianza.png" alt="logo Alianza">
+    </div>
+    <!-- Fin Header -->
+
+    <!-- Seccion contenido -->
+    <div class="content col-md-12 text-center">
+        <img src="img/nivel.png" class="img-responsive img-header img-nivel hidden-xs" alt="">
+        <img src="img/nivel-movil.png" class="img-responsive img-header img-nivel visible-xs" alt="">
+    </div>
+    <!-- Fin contenido -->
+
+    <!-- Seccion servicios -->
+    <div class="services col-xs-12" id="services">
+        <!-- <div class="container"> -->
+        <div class="col-md-4 col-lg-offset-1 col-sm-4 col-sm-offset-0 col-xs-12 first-col-serv" id="firstServ ">
+            <p class="p-services ">
+                Cursos de inglés de la Alianza,<br> 2 horas por semana, con<br> nuestro dinámico método de<br> aprendizaje desde $1.500 por<br> mes.<br> Llená el formulario y<br> registrate para empezar<br> en junio.
+            </p>
+        </div>
+        <div class="col-md-4 text-center boxed move-up ">
+            <div class="container-form-service ">
+                <h5 class="title-form-service text-center no-padding-y " style="color: #301147; padding-top: 10px; padding-bottom: 5px; ">Hacé rendir tu tiempo<br> preparandote para el futuro.</h5>
+                <h4 class="title-form-service text-center no-padding-y " style="color: #aa00ff; padding-bottom: 10px; font-weight: 700 ">CURSOS DE INGLÉS<br>DESDE $1.600</h4>
+                <div class="triangle "></div>
+                <form class="form-service" id="contactForm" name="sentMessage " novalidate>
+                    <div class="form-group text-left ">
+                        <label>Nombre</label>
+                        <input id="name " type="text " class="form-control text-center input-service " required data-validation-required-message="Por favor ingresa tu nombre. ">
+                        <p class="help-block text-danger "></p>
+                    </div>
+                    <div class="form-group text-left ">
+                        <label>E-mail</label>
+                        <input id="email " type="text " class="form-control text-center input-service " required data-validation-required-message="Por favor ingresa tu correo electrónico. ">
+                        <p class="help-block text-danger "></p>
+                    </div>
+                    <div class="form-group text-left ">
+                        <label>Teléfono</label>
+                        <input id="phone " type="tel " class="form-control text-center input-service " required data-validation-required-message="Por favor ingresa tu número telefónico. ">
+                        <p class="help-block text-danger "></p>
+                    </div>
+                    <div id="success "></div>
+                    <button id="sendMessageButton" class="btn btn-success btn-enviar btn-block " type="submit ">¡APRENDER INGLES!</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-lg-offset-3 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-12 second-col-serv" id="secondServ ">
+            <ul class="list">
+                <li><img src="img/plus.png" class="img-responsive" alt=""></li>
+                <li><img src="img/matricula.png" class="img-responsive" alt=""></li>
+                <li><img src="img/aprendizaje.png" class="img-responsive" alt=""></li>
+            </ul>
+        </div>
+        <!-- </div> -->
+    </div>
+    <!-- Fin servicios -->
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js "></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
+
+<script src="js/jqBootstrapValidation.min.js "></script>
+<script src="js/contact_me.js "></script>
+
+<script src="js/script.js "></script>
+
+<script src="js/sweetalert2.all.min.js "></script>
+
+</html>
